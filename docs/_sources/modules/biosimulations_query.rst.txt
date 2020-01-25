@@ -1,3 +1,0 @@
-biosimulations_query package
-
-Module contents
