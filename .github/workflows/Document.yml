@@ -17,7 +17,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r ./docs/requirements.txt
           sphinx-apidoc ./biosimulations_query -o ./docs/source/modules/
-          sphinx-build ./docs/source/ ./docs/build/
+          sphinx-build ./docs/source/ ./docs/html/
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v1.2.0
